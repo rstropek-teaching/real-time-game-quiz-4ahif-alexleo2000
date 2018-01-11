@@ -1,0 +1,66 @@
+.header {
+    float: center;
+}
+
+.cell {
+    width: 85px;
+    height: 85px;
+    border: 5px solid #0026ff;
+    background: #FFFFFF;
+    font-size: 46pt;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+#circle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); 
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+
+#ttt-div{
+    width: 100%
+}
+
+.list{
+    float: right;
+}
+
+.threeInARow{
+    width:33%;
+}
+
+
+.sameRow{
+    margin: 0;
+    display: inline-block;
+}
+
+#resetDiv {
+    width: 150px;
+}
+
+#numberOfResets{
+    margin: 0;
+    float:right;
+}
+
+.cell:hover {
+    background: #C2DBFC;
+    text-align: center;
+}
+
+.cell:active {
+    background: #81B7FF;
+    text-align: center;
+}
+
+.div {
+    float: right;
+}

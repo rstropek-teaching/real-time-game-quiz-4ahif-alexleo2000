@@ -1,0 +1,34 @@
+{
+  "name": "real-time-game-quiz-4ahif-alexleo2000",
+  "version": "1.0.0",
+  "description": "This exercise should be a funny way of preparing for our semester exam. It will bring together most of the topics we covered in the first semester. Work on it seriously and you can be sure that you will master the upcoming exam.",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server --files='*.html,*.js,*.css'",
+    "build": "tsc --watch main.ts, server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-alexleo2000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-alexleo2000/issues"
+  },
+  "homepage": "https://github.com/rstropek-teaching/real-time-game-quiz-4ahif-alexleo2000#readme",
+  "devDependencies": {
+    "browsersync": "0.0.1-security",
+    "csv-parse": "^2.0.0",
+    "socket.io": "^2.0.4"
+  },
+  "dependencies": {
+    "@types/csv-parse": "^1.1.11",
+    "@types/express": "^4.11.0",
+    "@types/jquery": "^3.2.17",
+    "@types/socket.io": "^1.4.31",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "mysql": "^2.15.0"
+  }
+}
