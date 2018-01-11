@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <h1 id="ttt">TicTacToe</h1>
+    <div id="ttt-div">
+        <table class="col-md-4">
+            <tr>
+                <td id="cell1" class="cell">&nbsp;</td>
+                <td id="cell2" class="cell">&nbsp;</td>
+                <td id="cell3" class="cell">&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="cell4" class="cell">&nbsp;</td>
+                <td id="cell5" class="cell">&nbsp;</td>
+                <td id="cell6" class="cell">&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="cell7" class="cell">&nbsp;</td>
+                <td id="cell8" class="cell">&nbsp;</td>
+                <td id="cell9" class="cell">&nbsp;</td>
+            </tr>
+        </table>
+
+        <div class="col-md-4" id="circle"></div>
+
+        <div class="col-md-4">
+            <h2>
+                Highscore list:
+            </h2>
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+    <div id="resetDiv">
+        <button class="sameRow" id="reset">Reset the Field</button>
+        <p id="numberOfResets">0/2</p>
+    </div>
+
+    <div>
+        <h1 id="lostwon"></h1>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
